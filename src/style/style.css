@@ -116,12 +116,18 @@ body {
 }
 
 .ToDo p {
+  text-overflow: ellipsis;
+  overflow: hidden;
   color: #54595e;
   font-family: Inter;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 21px;
+  width: 70%;
+  /* height: 60px; */
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .ToDo input:checked + p {
