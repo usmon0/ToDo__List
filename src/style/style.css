@@ -39,6 +39,7 @@ body {
   background: #fff;
   box-shadow: 0px 8px 35px 0px rgba(0, 0, 0, 0.16);
   margin-bottom: auto;
+  margin-top: 5%;
 }
 
 .addToDo {
@@ -106,7 +107,6 @@ body {
 .ToDo {
   position: relative;
   display: flex;
-  text-align: center;
 }
 
 .ToDo input {

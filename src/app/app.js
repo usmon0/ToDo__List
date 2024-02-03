@@ -123,11 +123,6 @@ delComplete.addEventListener("click", () => {
 });
 
 function trueFalse(num) {
-  // if (num == 1) {
-  //   return true;
-  // } else {
-  //   return false;
-  // }
   num == 1 ? true : false;
 }
 
